@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Nanum+Gothic+Coding:wght@400;700&family=Inter&family=Alfa+Slab+One:wght@400;700&display=swap');
+
+:root {
+  --font-family: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #191919;
+  color: #F2F2F2;
+  min-height: 100vh;
+  /* font-family: 'Nanum Gothic Coding', monospace; */
+  font-family: var(--font-family);
+}
+
+button {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+
+.footer {
+  font-family: 'Poppins', sans-serif;
+  padding: 15px;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 0.8rem;
+}
+
+a:hover {
+  filter: brightness(85%);
+}
