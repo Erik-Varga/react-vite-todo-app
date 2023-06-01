@@ -33,8 +33,8 @@ export default function Header({ onAddTask }) {
       </div>
       <div className={styles.newTaskForm}>
       <form onSubmit={handleSubmit}>
-        <input id="title" type="text" value={title} placeholder="add a new task" onChange={onChangeTitle} />
-        <button>+</button>
+        <input id="title" type="text" value={title} placeholder="add a new task" onChange={onChangeTitle} required />
+        <button title='Add Task'>+</button>
       </form>
 
       </div>
