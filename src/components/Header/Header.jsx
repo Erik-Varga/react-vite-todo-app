@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from './header.module.css';
-// import { BsRocket } from 'react-icons/bs';
+import { FaReact } from 'react-icons/fa';
+import { SiVite, SiYarn } from 'react-icons/si';
 
 export default function Header({ onAddTask }) {
   const [title, setTitle] = useState('');
@@ -19,10 +20,14 @@ export default function Header({ onAddTask }) {
     <header className={styles.header}>
       <div>
       <p className={styles.title}>
-        {/* <span><BsRocket /></span> */}
         <span>Sh!</span>
         <span className={styles.title1}>to</span>
         <span className={styles.title2}>do</span>
+      </p>
+      <p className={styles.icons}>
+        <span><FaReact /></span>&nbsp;
+        <span><SiVite /></span>&nbsp;
+        <span><SiYarn /></span>&nbsp;
       </p>
 
       </div>

@@ -25,6 +25,14 @@ header {
     color: #4175b9;
 }
 
+.icons {
+    display: flex;
+    justify-content: center;
+    color: #404040;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
 .newTaskForm {
     width: auto;
     display: flex;

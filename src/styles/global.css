@@ -13,8 +13,7 @@
 body {
   background-color: #191919;
   color: #F2F2F2;
-  min-height: 100vh;
-  margin: 0.2rem;
+ 
   /* font-family: 'Nanum Gothic Coding', monospace; */
   font-family: var(--font-family);
 }
@@ -25,7 +24,6 @@ button {
   font-size: 1.1rem;
   cursor: pointer;
 }
-
 
 .footer {
   font-family: 'Poppins', sans-serif;
