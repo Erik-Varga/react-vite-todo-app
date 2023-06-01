@@ -37,8 +37,6 @@ function App() {
     ]);
   }
 
-
-
   function toggleTaskCompletedById(taskId) {
     const newTasks = tasks.map(task => {
       if(task.id === taskId) {

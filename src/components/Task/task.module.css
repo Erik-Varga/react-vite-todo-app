@@ -37,6 +37,9 @@ p.textCompleted {
 }
 
 .deleteButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: none;
     border: none;
     color: #808080;
