@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import styles from './header.module.css';
 import { FaReact } from 'react-icons/fa';
 import { SiVite, SiYarn } from 'react-icons/si';
+import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs';
+import Theme from "../Theme/Theme";
+
 
 export default function Header({ onAddTask }) {
   const [title, setTitle] = useState('');
@@ -28,6 +31,9 @@ export default function Header({ onAddTask }) {
         <span><FaReact /></span>&nbsp;
         <span><SiVite /></span>&nbsp;
         <span><SiYarn /></span>&nbsp;
+      </p>
+      <p className={styles.lightdark}>
+      <Theme />
       </p>
 
       </div>

@@ -2,6 +2,37 @@
 
 :root {
   --font-family: 'Inter', sans-serif;
+  --bg-color: #191919;
+  --header-bg-color: #0d0d0d;
+  --input-bg-color: #262626;
+  --button-bg-color: #1e6f9f;
+  --txt-color: #f2f2f2;
+  --check-color: #f2f2f2;
+  --button-txt-color: #f2f2f2;
+  --input-placeholder-txt-color: #808080;
+  --task-header-txt-color: #4ea8de;
+  --task-outline-color: #333333;
+  --footer-txt-color: #whitesmoke;
+  --title-color: #f841138c;
+  --title1-color: #98c1d9;
+  --title2-color: #4175b9;
+}
+
+[data-theme='light'] {
+  --bg-color: #f2f2f2;
+  --header-bg-color: #f2f2f2;
+  --input-bg-color: #dae3e6;
+  --button-bg-color: #f2f2f2;
+  --txt-color: #191919;
+  --check-color: #191919;
+  --button-txt-color: #191919;
+  --input-placeholder-txt-color: #2e2e2e;
+  --task-header-txt-color: #191919;
+  --task-outline-color: #cccccc;
+  --footer-txt-color: black;
+  --title-color: #B1D4E0;
+  --title1-color: #0C2D48;
+  --title2-color: #2E8BC0;
 }
 
 * {
@@ -11,11 +42,12 @@
 }
 
 body {
-  background-color: #191919;
-  color: #F2F2F2;
+  background-color: var(--bg-color);
+  color: var(--txt-color);
  
   /* font-family: 'Nanum Gothic Coding', monospace; */
   font-family: var(--font-family);
+  transition: 0.2s;
 }
 
 button {
@@ -35,7 +67,7 @@ a {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  color: whitesmoke;
+  color: var(--footer-txt-color);
   font-size: 0.8rem;
 }
 

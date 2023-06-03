@@ -15,7 +15,7 @@ export default function Tasks({ tasks, onComplete, onDelete }) {
         </div>
         
         <div className={styles.title}>
-            <p className={styles.textDone}>Completed</p>
+            <p>Completed</p>
             <span>{completedTasksQuantity} of {tasksQuantity}</span>
         </div>
       </div>

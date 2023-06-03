@@ -1,12 +1,11 @@
 .header {
-    background-color: #0d0d0d;
+    background-color: var(--header-bg-color);
 }
 
 header {
     font-size: 3rem;
     font-weight: bold;
     padding: 20px;
-    color: #f841138c;
     font-family: 'Alfa Slab One', cursive;
 }
 
@@ -15,14 +14,15 @@ header {
     justify-content: center;
     align-items: center;
     gap: 4px;
+    color: var(--title-color);
 }
 
 .title1 {
-    color: #98c1d9;
+    color: var(--title1-color);
 }
 
 .title2 {
-    color: #4175b9;
+    color: var(--title2-color);
 }
 
 .icons {
@@ -31,6 +31,13 @@ header {
     color: #404040;
     font-size: 1.5rem;
     padding-bottom: 10px;
+}
+
+.lightdark {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    font-size: 1.5rem;
 }
 
 .newTaskForm {
@@ -53,24 +60,24 @@ header {
 .newTaskForm input {
     height: 100%;
     width: 100%;
-    color: #fff;
-    background-color: #262626;
-    border: 1px solid #0d0d0d;
+    color: var(--txt-color);
+    background-color: var(--input-bg-color);
+    border: 1px solid var(--header-bg-color);
     border-radius: 8px;
     padding: 10px 16px;
     font-size: 1.2rem;
 }
 
 .newTaskForm input::placeholder {
-    color: #808080;
+    color: var(--input-placeholder-txt-color);;
 }
 
 .newTaskForm button {
     font-family: var(--font-family);
     height: 100%;
     padding: 10px 16px;
-    background-color: #1e6f9f;
-    color: #fff;
+    background-color: var(--button-bg-color);
+    color: var(--button-txt-color);
     border: none;
     border-radius: 8px;
 }
